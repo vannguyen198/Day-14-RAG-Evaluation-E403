@@ -19,13 +19,10 @@ Instructions:
     3. Copy this file to solution/solution.py when done.
     4. Run: pytest tests/ -v
 """
-
 from __future__ import annotations
-
 import re
 from dataclasses import dataclass, field
 from typing import Any, Callable
-
 
 # ---------------------------------------------------------------------------
 # Task 1 — Data Models (Golden Dataset + Evaluation Results)
